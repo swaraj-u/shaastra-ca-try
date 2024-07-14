@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/shaastra-ca-try/static/css/main.a2f27a51.css",
-    "main.js": "/shaastra-ca-try/static/js/main.5cd4360f.js",
+    "main.css": "/shaastra-ca-try/static/css/main.9abc2ec8.css",
+    "main.js": "/shaastra-ca-try/static/js/main.2c09e83c.js",
     "index.html": "/shaastra-ca-try/index.html",
-    "main.a2f27a51.css.map": "/shaastra-ca-try/static/css/main.a2f27a51.css.map",
-    "main.5cd4360f.js.map": "/shaastra-ca-try/static/js/main.5cd4360f.js.map"
+    "main.9abc2ec8.css.map": "/shaastra-ca-try/static/css/main.9abc2ec8.css.map",
+    "main.2c09e83c.js.map": "/shaastra-ca-try/static/js/main.2c09e83c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2f27a51.css",
-    "static/js/main.5cd4360f.js"
+    "static/css/main.9abc2ec8.css",
+    "static/js/main.2c09e83c.js"
   ]
 }
