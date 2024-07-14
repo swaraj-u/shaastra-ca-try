@@ -1,31 +1,47 @@
-import { useState } from 'react';
+// import { useState } from 'react';
+// import { useEffect } from 'react';
 import './home.css';
 
 
 const Home = () => {
 
-    const tabContainer = document.querySelector("#faqs > section");
+    // useEffect( () => {
+    //     const element =  document.querySelector(".introImage");
 
-    const [counter, setCounter] = useState(false);
+    // const startAnimation = () => {
+    //     element.style.animationPlayState = 'running';
+    // };
 
-    const startDragging = () => {
-        setCounter(true);
-    }
+    // const pauseAnimation = () => {
+    //     element.style.animationPlayState = 'paused';
+    // };
 
-    const Dragging = (event) => {
-        tabContainer.scrollLeft -= event.movementX;
-    }
+    // const handleIntersection = (entries) => {
+    //     entries.forEach(entry => {
+    //         if (entry.isIntersecting) {
+    //             startAnimation();
+    //         } else {
+    //             pauseAnimation();
+    //         }
+    //     },{
+    //         rootMargin:"0px",
+    //         threshold: 0.1
+    //     });
+    // };
 
-    const stopDragging = () => {
-        setCounter(false);
-    }
+    // const observer = new IntersectionObserver(handleIntersection, {
+    //     root: null, 
+    // });
 
-    const Nothing = () => {};
+    // observer.observe(element);
 
+    // })
+
+    
     return ( 
     <div id="home">
         <div id="intro">
-            <img id="bg-image" alt="" src="https://i.pinimg.com/564x/20/db/0f/20db0ffb0c7b1417b96e458c3559bf43.jpg" />
+            <img class="introImage" alt="" src="https://i.pinimg.com/564x/20/db/0f/20db0ffb0c7b1417b96e458c3559bf43.jpg" />
             <p id="intro-text">
                 <p>Be a</p>
                 <p>CAMPUS AMBASSADOR</p>
