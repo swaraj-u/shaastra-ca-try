@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 // import { useEffect } from 'react';
 import './home.css';
+import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
 
 
 const Home = () => {
